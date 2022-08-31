@@ -1,0 +1,529 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#header {
+  background: #eeeeee;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+#header .navbar--general {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header .navbar--general__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#header .navbar--general__title a {
+  font-weight: 400;
+  font-size: 14px;
+  color: #011F3A;
+  padding: 0 20px;
+}
+#header .navbar--general__gen {
+  display: flex;
+  align-items: center;
+}
+#header .navbar--general__gen h1 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #011F3A;
+}
+#header .navbar--general__gen a {
+  color: #011F3A;
+  margin-left: 5px;
+}
+
+#hero {
+  background: #F2AE4D;
+  min-height: 80vh;
+  padding-top: 50px;
+}
+#hero .hero--general {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hero .hero--general__block h1 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  height: 168px;
+  color: #011F3A;
+}
+#hero .hero--general__block p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #011F3A;
+  height: 48px;
+}
+#hero .hero--general__block button {
+  padding: 15px 30px;
+  background: #3D5675;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transition: 0.4s;
+  cursor: pointer;
+  border: 1px solid #3D5675;
+}
+#hero .hero--general__block button:hover {
+  background: #011F3A;
+  transform: scale(1.1);
+}
+
+#about .about--general {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 0;
+}
+#about .about--general__logo {
+  display: flex;
+  align-items: center;
+}
+#about .about--general__logo h1 {
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.6px;
+  color: #A1A1A1;
+}
+
+#live {
+  background: rgba(238, 238, 238, 0.79);
+}
+#live .live-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+#live .live-title h1 {
+  font-weight: 400;
+  font-size: 32px;
+  color: #011F3A;
+}
+#live .live-title button {
+  padding: 15px 30px;
+  background: #3D5675;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transition: 0.4s;
+  cursor: pointer;
+  border: 1px solid #3D5675;
+}
+#live .live-title button:hover {
+  transform: scale(1.2);
+  background: #011F3A;
+}
+#live .live--general {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #FFFFFF;
+  padding: 0 70px;
+}
+#live .live--general__block h1 {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.36px;
+  color: #011F3A;
+}
+#live .live--general__block p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #777777;
+  padding: 10px 0;
+}
+#live .live--block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+#live .live--block p {
+  font-weight: 700;
+  font-size: 15px;
+  color: #A1A1A1;
+}
+#live .live--block button {
+  padding: 15px 30px;
+  background: #3D5675;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transition: 0.4s;
+  cursor: pointer;
+  border: 1px solid #3D5675;
+}
+#live .live--block button:hover {
+  background: #FFFFFF;
+  transform: scale(1.2);
+  color: #011F3A;
+  margin-left: 20px;
+}
+#live .live--goo {
+  background: #2da478;
+  padding: 50px 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#live .live--goo__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+#live .live--goo__title h1 {
+  font-weight: 400;
+  font-size: 32px;
+  text-align: center;
+  color: #011F3A;
+}
+#live .live--goo__bro {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+#live .live--goo__bro h1 {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #011F3A;
+}
+#live .live--goo__bro p {
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  color: #3D5675;
+  letter-spacing: 0.36px;
+}
+#live .live--goo button {
+  padding: 15px 30px;
+  background: #3D5675;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transition: 0.4s;
+  cursor: pointer;
+  border: 1px solid #3D5675;
+}
+#live .live--goo button:hover {
+  background: #011F3A;
+  transform: scale(1.2);
+}
+
+#block {
+  background: #EEEEEE;
+}
+#block .block--general {
+  padding-bottom: 50px;
+  background: #FFFFFF;
+}
+#block .block--general__title {
+  padding: 40px 0;
+}
+#block .block--general__title h1 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #011F3A;
+}
+#block .block--general__winner {
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+}
+#block .block--general__winner h1 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #011F3A;
+  padding-top: 30px;
+}
+#block .block--general__winner p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #A1A1A1;
+  padding-top: 20px;
+}
+#block .block--gen {
+  background: #FFCA3A;
+  padding-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#block .block--gen__goo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+#block .block--gen__goo h1 {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: #011F3A;
+  padding: 30px 0;
+}
+#block .block--gen__goo p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #3D5675;
+}
+#block .block--gen__goo button {
+  padding: 15px 25px;
+  background: #FFFFFF;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.96px;
+  color: #3D5675;
+  transition: 0.4s;
+  cursor: pointer;
+  border: 1px solid #FFFFFF;
+  margin: 10px 0;
+}
+#block .block--gen__goo button:hover {
+  transform: scale(1.1);
+  background: #FFFFFF;
+}
+#block .block--gen__li {
+  height: 410px;
+  right: 50%;
+  border: 1px solid rgba(161, 161, 161, 0.4);
+}
+
+#feat {
+  padding-top: 50px;
+  background: #EEEEEE;
+}
+#feat .feat--general {
+  background: #FFFFFF;
+}
+#feat .feat--general__title {
+  background: #EEEEEE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 0;
+}
+#feat .feat--general__title h1 {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #011F3A;
+}
+#feat .feat--general__google {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+#feat .feat--general .feat--gen__liv {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px 0;
+}
+#feat .feat--general .feat--gen__liv .feat--gen__go h1 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #011F3A;
+}
+#feat .feat--general .feat--gen__liv .feat--gen__go-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+#feat .feat--general .feat--gen__liv .feat--gen__go-block div {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+#feat .feat--general .feat--gen__liv .feat--gen__go-block div h1 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #011F3A;
+}
+#feat .feat--general .feat--gen__liv .feat--gen__go-block div p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #A1A1A1;
+}
+#feat .feat--general .feat--gen__liv .feat--gen__go-block button {
+  border-radius: 15px;
+  text-transform: uppercase;
+  color: #3D5675;
+  transition: 0.4s;
+  cursor: pointer;
+  border: 1px solid #FFFFFF;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1.96px;
+  padding: 8px 5px;
+  background: #F2F2F2;
+}
+#feat .feat--general .feat--gen__liv .feat--gen__go-block button:hover {
+  transform: scale(1.1);
+  background: #3D5675;
+  color: #FFFFFF;
+}
+#feat .feat--goo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#feat .feat--goo__run {
+  margin: 90px 0;
+}
+#feat .feat--goo__run h1 {
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 36px;
+  text-align: center;
+  color: #011F3A;
+  padding-bottom: 30px;
+}
+#feat .feat--goo__run button {
+  padding: 15px 30px;
+  background: #3D5675;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transition: 0.4s;
+  cursor: pointer;
+  border: 1px solid #3D5675;
+}
+#feat .feat--goo__run button:hover {
+  transform: scale(1.1);
+  background: #FFFFFF;
+  color: #3D5675;
+}
+#feat .feat--goo__run button {
+  margin-left: 10px;
+  padding: 15px 30px;
+  background: #3D5675;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transition: 0.4s;
+  cursor: pointer;
+  border: 1px solid #3D5675;
+}
+#feat .feat--goo__run button:hover {
+  transform: scale(1.1);
+  background: #FFFFFF;
+  color: #3D5675;
+}
+
+#footer {
+  background: aliceblue;
+  padding-top: 50px;
+}
+#footer .footer--general {
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+}
+#footer .footer--general__block p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #3D5675;
+  padding: 10px 0;
+}
+#footer .footer--general__p p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #3D5675;
+  padding: 5px 0;
+}
+#footer .footer--general__h1 p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #3D5675;
+  padding: 5px 0;
+}
+#footer .footer--general__h1 a {
+  margin-left: 5px;
+  color: #3D5675;
+  padding: 5px 0;
+}
+#footer .footer--general__but {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+#footer .footer--general__but h2 {
+  font-weight: 400;
+  font-size: 15px;
+  color: #3D5675;
+  padding-bottom: 10px;
+}
+#footer .footer--general__but input {
+  padding: 10px 40px;
+  background: #FFFFFF;
+  border-radius: 15px;
+  border: 1px solid #3D5675;
+  margin-bottom: 10px;
+}
+#footer .footer--general__but button {
+  padding: 15px 30px;
+  background: #3D5675;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transition: 0.4s;
+  cursor: pointer;
+  border: 1px solid #3D5675;
+}
+#footer .footer--general__but button:hover {
+  transform: scale(1.1);
+  background: #011F3A;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=style.css.map */

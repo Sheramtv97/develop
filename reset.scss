@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto",sans-serif;
+}
+@mixin ani {
+  padding: 15px 30px;
+  background: #3D5675;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transition: .4s;
+  cursor: pointer;
+  border: 1px solid #3D5675;
+}
+
+@mixin bor {
+  padding: 15px 25px;
+  background: #FFFFFF;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.96px;
+  color: #3D5675;
+  transition: .4s;
+  cursor: pointer;
+  border: 1px solid #FFFFFF;
+}
+
+@mixin work {
+  border-radius: 15px;
+  text-transform: uppercase;
+  color: #3D5675;
+  transition: .4s;
+  cursor: pointer;
+  border: 1px solid #FFFFFF;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1.96px;
+  padding: 8px 5px;
+  background: #F2F2F2;
+}
